@@ -1,0 +1,15 @@
+.portfolio {
+    padding: 40px;
+}
+
+.portfolio > h1 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio__project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,8 @@
+.app {
+  margin: 0;
+}
+.app > h1 {
+  color: white;
+  text-align: center;
+  margin: 100px auto;
+}

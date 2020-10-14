@@ -1,0 +1,33 @@
+.modal > button:focus {
+    outline: none;
+}
+
+.modal__image {
+    width: 100%;
+}
+
+.modal__textImage {
+    width: 400px;
+}
+
+.modal__btn {
+    width: 400px;
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+
+.modal__linkIconContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.modal__linkIconContainer > a {
+    color: inherit;
+}
+
+.modal__linkIcon:hover {
+    color: black;
+}

@@ -1,0 +1,30 @@
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselContainer__iam {
+    color: gray;
+    text-shadow: 0 3px 3px black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.carouselContainer__title {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+.carouselContainer__dots {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
