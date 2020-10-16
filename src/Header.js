@@ -3,6 +3,7 @@ import "./Header.css"
 import { Avatar } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { motion } from "framer-motion";
 
 
 function Header() {
@@ -13,8 +14,8 @@ function Header() {
                 <h2>Jae Sohn</h2>
             </div>
             <div className="header__contactIcons">
-            <a href="https://www.github.com/jsohnfile" target="_blank"><GitHubIcon className="header__icon"/></a>
-            <a href="https://www.linkedin.com/in/jaesohn" target="_blank"><LinkedInIcon className="header__icon"/></a>
+            <motion.a whileHover={{scale:1.2}} href="https://www.github.com/jsohnfile" target="_blank" title="GitHub"><GitHubIcon className="header__icon"/></motion.a>
+            <motion.a whileHover={{scale:1.2}} href="https://www.linkedin.com/in/jaesohn" target="_blank" title="Linked-In"><LinkedInIcon className="header__icon"/></motion.a>
             </div>
             
         </div>

@@ -14,8 +14,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("https://i.imgur.com/RTCzrhR.jpg") no-repeat center center fixed;
-  background-size: fill;
+  background: url("https://i.imgur.com/dzlXIc4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 code {

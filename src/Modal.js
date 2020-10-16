@@ -5,18 +5,14 @@ import PageviewIcon from "@material-ui/icons/Pageview";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import "./Modal.css"
 
-function rand() {
-  return Math.round(Math.random() * 20) - 10;
-}
 
 function getModalStyle() {
-  const top = 50 + rand();
-  const left = 50 + rand();
-
   return {
-    top: "25%",
-    left: "35%",
-    // transform: `translate(-${top}%, -${left}%)`,
+    position: "fixed",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: "50%",
   };
 }
 
@@ -29,6 +25,8 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
     color: 'white',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   },
 }));
 
@@ -55,18 +53,19 @@ export default function SimpleModal({ image, title, textOne, textTwo, glink, pli
         {textTwo}
       </p>
         <div className="modal__linkIconContainer">
-            <a href={glink} target="_blank"><GitHubIcon className="modal__linkIcon" style={{ fontSize: 40 }}/></a>
-            <a href={plink} target="_blank"><PageviewIcon className="modal__linkIcon" style={{ fontSize: 50 }}/></a>
+            <a href={glink} target="_blank" title="GitHub"><GitHubIcon className="modal__linkIcon" style={{ fontSize: 40 }}/></a>
+            <a href={plink} target="_blank" title="View Project"><PageviewIcon className="modal__linkIcon" style={{ fontSize: 50 }}/></a>
         </div>
     </div>
   );
 
   return (
-    <div>
-      <button className="modal__btn" type="button" onClick={handleOpen}>
+    <div className="modal">
+      <button className="modal__btn" type="button" onClick={handleOpen} title={title}>
         <img className="modal__image" src={image} />
       </button>
       <Modal
+        className="modal__modal"
         open={open}
         onClose={handleClose}
         aria-labelledby="simple-modal-title"

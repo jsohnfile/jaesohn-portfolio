@@ -1,7 +1,7 @@
 .carouselContainer {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 80%;
     margin: 200px auto;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .carouselContainer__iam {
-    color: gray;
+    color: rgb(184, 184, 184);
     text-shadow: 0 3px 3px black;
     text-align: center;
     font-size: 30px;
@@ -19,7 +19,7 @@
 .carouselContainer__title {
     color: white;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Miriam Libre', sans-serif;
 }
 

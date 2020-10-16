@@ -1,6 +1,8 @@
+.project {
+    width: 100%;
+}
 .project__container {
-    width: 400px;
-    margin: 25px;
+    width: 100%;
 }
 
 .project__container > img {
