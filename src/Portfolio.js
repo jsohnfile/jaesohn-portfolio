@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import "./Portfolio.css";
-import Zoom from "react-reveal/Zoom";
+import LightSpeed from "react-reveal/LightSpeed";
 
 
 function Portfolio() {
@@ -9,7 +9,7 @@ function Portfolio() {
         <div className="portfolio">
             <h1>My Projects</h1>
             <div className="portfolio__projectContainer">
-                <Zoom bottom cascade>
+                <LightSpeed left cascade>
                     <div className="portfolio__project">
                         <div className="portfolio__projectWrapper">
                         <Project glink="https://github.com/jsohnfile/Slot-Machine-Game" plink="https://jsohnfile.github.io/Slot-Machine-Game" image="https://i.imgur.com/6i5gkFk.png" title="Slot Machine Game" textOne="The Slot Machine Game was the first front-end project I have ever created." textTwo="Technologies Used: HTML, CSS, JavaScript, Vanilla JS"/>
@@ -36,7 +36,7 @@ function Portfolio() {
                             <Project glink="https://github.com/jsohnfile/trackpaks" plink="https://trackpaks.herokuapp.com" image="https://i.imgur.com/pUqNFCI.png" title="Trackpaks" textOne="Ever had to track a package? What about multiple packages? I always hoped for a site that made it easier to keep track of all packages and the tracking history across many different carriers. That is why TrackPaks was created" textTwo="Technologies Used: HTML, CSS, JavaScript, Mongoose/MongoDB, ExpressJS, ReactJS, NodeJS, Shippo API"/>
                         </div>
                     </div>
-                </Zoom>
+                </LightSpeed>
             </div>
         </div>
     )

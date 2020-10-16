@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import About from "./About";
 import Portfolio from "./Portfolio";
+import Footer from "./Footer";
 import CarouselContainer from "./CarouselContainer";
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
     <div className="app">
       <Header />
       <CarouselContainer />
-      <About />
       <Portfolio />
+      <About />
+      <Footer />
     </div>
   );
 }
