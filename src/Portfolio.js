@@ -7,7 +7,7 @@ import Zoom from "react-reveal/Zoom";
 function Portfolio() {
     return (
         <div className="portfolio">
-            <h1>My Portfolio</h1>
+            <h1>My Projects</h1>
             <div className="portfolio__projectContainer">
                 <Zoom bottom cascade>
                     <div className="portfolio__project">
