@@ -16,10 +16,8 @@ function About() {
                 <Fade right>
                     <div className="about__text">
                         <h1>About Me</h1>
-                        <p>Thank you for dropping by. I am a Full-Stack developer, seeking a career where I can utilize my skill sets 
-                        gained throughout my past experiences. Similar to the way my name sounds(Jae Sohn == json), my understanding of 
-                        business operations has given me the knowledge to communicate between different departments and colleagues in an 
-                        efficient and cohesive manner.
+                        <p>Thank you for dropping by. I am a Full-Stack developer, seeking an opportunity where I can utilize my skill sets 
+                        gained throughout my past experiences. I have a passion for building, and utilizing my creative skills in order to produce beautiful and efficient web apps.
                         </p>
                         <h3>Skills</h3>
                         <p><SiHtml5 style={{ fontSize: '30px'}} className="about__icon" title="HTML 5"/>, <SiCss3 style={{ fontSize: '30px'}} className="about__icon" title="CSS 3"/>, <SiJavascript style={{ fontSize: '30px'}} className="about__icon" title="JavaScript"/>, <SiReact style={{ fontSize:'30px'}} className="about__icon" title="React JS"/>, <SiPython style={{ fontSize:'30px'}} className="about__icon" title="Python"/>, <SiFirebase style={{ fontSize: '30px'}} className="about__icon" title="Google Firebase"/>, <SiMongodb style={{ fontSize: '30px'}} className="about__icon" title="MongoDB"/>, <SiPostgresql style={{ fontSize: '30px'}} className="about__icon" title="postgreSQL"/>, <SiAmazonaws style={{ fontSize: '30px'}} className="about__icon" title="AWS"/>, <SiGithub style={{ fontSize: '30px'}} className="about__icon" title="Github"/> JSON Web Tokens(JWT), jQuery, Vanilla JS, Express JS, PostgresSQL, Google OAuth, Agile/SCRUM, and learning more!.

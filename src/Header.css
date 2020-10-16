@@ -3,10 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     position: sticky;
     top: 0;
-
 }
 
 .header__nameContainer {
@@ -19,6 +17,7 @@
 
 .header__nameContainer > h2 {
     color: white;
+    text-shadow: 3px 3px 3px black;
 }
 
 .header__avatar {
