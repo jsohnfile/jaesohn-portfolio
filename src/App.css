@@ -1,5 +1,6 @@
 .app {
   margin: 0;
+  font-family: 'Abel', sans-serif;
 }
 .app > h1 {
   color: white;

@@ -1,6 +1,7 @@
 .modal {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .modal__modal {
@@ -12,8 +13,8 @@
 }
 
 .modal__image {
-    width: 100%;
-    object-fit: contain;
+    width: 375px;
+    /* object-fit: contain; */
 }
 
 .modal__textImage {
@@ -21,11 +22,12 @@
 }
 
 .modal__btn {
-    width: 300px;
+    width: 375px;
     padding: 0 !important;
     border: none !important;
     background: none !important;
     cursor: pointer;
+    margin: 20px;
 }
 
 .modal__linkIconContainer {
