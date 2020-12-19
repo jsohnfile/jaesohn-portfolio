@@ -6,7 +6,7 @@
     position: sticky;
     z-index: 1;
     top: 0;
-    background-color: rgb(19, 64, 90);
+    background-color: var(--colorThree);
     box-shadow: 0 3px 3px black;
 }
 
@@ -40,6 +40,3 @@
     margin-left: 20px;
 }
 
-.header__icon:hover {
-    color: gray;
-}

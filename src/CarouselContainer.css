@@ -1,13 +1,14 @@
 .carouselContainer {
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 200px auto;
+    margin-top: 150px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://i.imgur.com/oo8dpdS.jpg) fixed no-repeat center;
+    background: url(https://i.imgur.com/4QPNi0G.jpg) fixed no-repeat;
     background-size: cover;
     box-shadow: 0 3px 3px black;
 }
@@ -16,14 +17,15 @@
     color: white;
     text-shadow: 0 3px 3px black;
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    margin: 50px;
 }
 
 .carouselContainer__title {
     color: white;
     text-shadow: 0 3px 3px black;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 60px;
     font-family: 'Miriam Libre', sans-serif;
 }

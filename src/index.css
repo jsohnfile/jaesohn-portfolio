@@ -1,6 +1,11 @@
 * {
   margin: 0;
 }
+:root {
+  --colorOne: rgb(179, 185, 212);
+  --colorTwo: rgb(155, 162, 196);
+  --colorThree: rgb(129, 137, 178);
+}
 
 html {
   width: 100vw;
@@ -14,7 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(6, 81, 125);
+  background-color: var(--colorOne);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

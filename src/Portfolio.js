@@ -7,11 +7,9 @@ import { Parallax } from 'react-scroll-parallax';
 function Portfolio() {
     return (
         <div className="portfolio">
-            <Parallax y={[10, -50]} tagOuter="figure">
-                <p className="portfolio_header">My Projects</p>
-            </Parallax>
             <Parallax className="portfolio_parallax" y={[0, -50]} tagOuter="figure">
                 <div className="portfolio__projectContainer">
+                <p className="portfolio_header">My Projects</p>
                 <LightSpeed left cascade>
                     <div className="portfolio__project">
                         <div className="portfolio__projectWrapper">

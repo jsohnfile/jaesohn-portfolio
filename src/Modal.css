@@ -14,7 +14,10 @@
 
 .modal__image {
     width: 375px;
-    /* object-fit: contain; */
+    box-shadow: 0px 4px 4px black;
+}
+.modal__image:hover{
+    box-shadow: 10px 15px 15px black;
 }
 
 .modal__textImage {
@@ -42,5 +45,5 @@
 }
 
 .modal__linkIcon:hover {
-    color: black;
+    color: var(--colorThree);
 }

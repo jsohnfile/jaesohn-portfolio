@@ -1,0 +1,53 @@
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.photo__container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.photo__image{
+    border-radius: 50%;
+    border: 3px solid var(--colorThree);
+    box-shadow: 0 3px 3px black;
+    width: 300px;
+}
+
+.photo__name{
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 3px 3px black;
+}
+
+.photo__about{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__title{
+    font-size: 60px;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 3px 3px black;
+    text-align: center;
+}
+
+.about__text{
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+    text-shadow: 0 3px 3px black;
+}

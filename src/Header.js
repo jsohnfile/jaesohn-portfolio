@@ -15,7 +15,7 @@ function Header() {
                 <h2>Jae Sohn</h2>
             </div>
             <div className="header__contactIcons">
-            <motion.a whileHover={{scale:1.2}} href="mailto:jsohnfile@gmail.com" target="_blank" title="Email Me"><EmailOutlined style={{fontSize:'40px'}} className="about__contactIcon"/></motion.a>
+            <motion.a whileHover={{scale:1.2}} href="mailto:jsohnfile@gmail.com" target="_blank" title="Email Me"><EmailOutlined className="header__icon"style={{fontSize:'40px', color:'white'}}/></motion.a>
             <motion.a whileHover={{scale:1.2}} href="https://www.github.com/jsohnfile" target="_blank" title="GitHub"><GitHubIcon className="header__icon" style={{fontSize:'40px'}}/></motion.a>
             <motion.a whileHover={{scale:1.2}} href="https://www.linkedin.com/in/jaesohn" target="_blank" title="Linked-In"><LinkedInIcon className="header__icon" style={{fontSize:'40px'}}/></motion.a>
             </div>

@@ -13,6 +13,7 @@ function getModalStyle() {
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: "50%",
+    border:'0',
   };
 }
 
@@ -20,13 +21,15 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
     width: 400,
-    backgroundColor: 'rgba(128, 128, 128, 0.8)',
-    border: '2px solid black',
+    backgroundColor: 'var(--colorOne)',
+    border: '2px solid var(--colorThree) !important',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
     color: 'white',
+    textShadow:'0 2px 2px black',
     marginLeft: 'auto',
     marginRight: 'auto',
+    borderRadius: '15px',
   },
 }));
 

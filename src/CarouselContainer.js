@@ -2,11 +2,10 @@ import makeCarousel from 'react-reveal/makeCarousel';
 import LightSpeed from 'react-reveal/LightSpeed';
 import styled, { css } from 'styled-components';
 import "./CarouselContainer.css";
-
 import React from 'react'
 
 function CarouselContainer() {
-    const width = '800px', height='200px';
+    const width = '800px', height='300px';
     const Container = styled.div`
       position: relative;
       overflow: hidden;
@@ -29,7 +28,7 @@ function CarouselContainer() {
     return (
         <div className="carouselContainer">
             <h2 className="carouselContainer__iam">Hello! I'm</h2>
-            <Carousel defaultWait={2000} >
+            <Carousel defaultWait={3500} >
                 <LightSpeed right>
                 <div>
                     <p className="carouselContainer__title">Jae Sohn</p>
