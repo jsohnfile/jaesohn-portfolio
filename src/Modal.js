@@ -51,7 +51,7 @@ export default function SimpleModal({ image, title, textOne, textTwo, glink, pli
     <div style={modalStyle} className={classes.paper}>
       <h2 id="simple-modal-title">{title}</h2>
       <p id="simple-modal-description">
-      <img className="modal__textImage" src={image} />
+      <img className="modal__textImage" src={image} alt="Project Image"/>
         {textOne}<br></br>
         {textTwo}
       </p>
@@ -65,7 +65,7 @@ export default function SimpleModal({ image, title, textOne, textTwo, glink, pli
   return (
     <div className="modal">
       <button className="modal__btn" type="button" onClick={handleOpen} title={title}>
-        <img className="modal__image" src={image} />
+        <img className="modal__image" src={image} alt="Project Image"/>
       </button>
       <Modal
         className="modal__modal"

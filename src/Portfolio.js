@@ -7,6 +7,7 @@ import { Parallax } from 'react-scroll-parallax';
 function Portfolio() {
     return (
         <div className="portfolio">
+         
             <Parallax className="portfolio_parallax" y={[0, -50]} tagOuter="figure">
                 <div className="portfolio__projectContainer">
                 <p className="portfolio_header">My Projects</p>
@@ -40,6 +41,7 @@ function Portfolio() {
                 </LightSpeed>
                 </div>
             </Parallax>
+           
         </div>
     )
 }

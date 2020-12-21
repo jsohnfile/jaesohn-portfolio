@@ -1,5 +1,7 @@
 .footer {
     color: white;
+    text-shadow: 0 3px 3px black;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -2,10 +2,11 @@ import makeCarousel from 'react-reveal/makeCarousel';
 import LightSpeed from 'react-reveal/LightSpeed';
 import styled, { css } from 'styled-components';
 import "./CarouselContainer.css";
+import {Button} from "@material-ui/core";
 import React from 'react'
 
 function CarouselContainer() {
-    const width = '800px', height='300px';
+    const width = '800px', height='275px;';
     const Container = styled.div`
       position: relative;
       overflow: hidden;
@@ -22,6 +23,12 @@ function CarouselContainer() {
         <Children>
           {children}
         </Children>
+        <div className="button__container">
+        <Button className="carousel__button" variant="outlined" href="#photo">
+          Learn More
+        </Button>
+        <a id="photo"></a>
+        </div>
       </Container>
     );
     const Carousel = makeCarousel(CarouselUI);

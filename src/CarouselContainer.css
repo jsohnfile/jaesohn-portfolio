@@ -4,11 +4,11 @@
     flex-direction: column;
     width: 100%;
     margin-top: 150px;
-    
+    border: 1px solid var(--colorThree);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://i.imgur.com/4QPNi0G.jpg) fixed no-repeat;
+    background: url(https://i.imgur.com/LTGYz52.jpg) fixed center no-repeat;
     background-size: cover;
     box-shadow: 0 3px 3px black;
 }
@@ -34,4 +34,24 @@
     display: flex;
     justify-content: center;
     color: white;
+}
+
+.button__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.carousel__button {
+    border: 3px solid white !important;
+    color: white !important;
+    text-shadow: 0 3px 3px black !important;
+    font-size: 25px !important;
+    border-radius: 20px !important;
+    background-color: rgba(255,255,255,0.5) !important;
+}
+
+.carousel__button:hover {
+    background-color: var(--colorTwo) !important;
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header";
 import Photo from "./Photo";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";

@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <p>Copyright © a jsohnfile 2020</p>
-            <a href="emailto:jsohnfile@gmail.com">jsohnfile@gmail.com</a>
+            <a href="mailto:jsohnfile@gmail.com">jsohnfile@gmail.com</a>
         </div>
     )
 }

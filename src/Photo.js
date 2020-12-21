@@ -12,6 +12,7 @@ export class Photo extends PureComponent {
                     <p className="photo__name">Jae Sohn</p>
                 </div>
                 </Fade>
+                
                 <Fade right>
                     <div className="photo__about">
                         <p className="about__title">About Me</p>
