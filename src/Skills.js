@@ -6,7 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InsertDriveFileIcon from "@material-ui/icons/InsertDriveFile"
 import Fade from "react-reveal/Fade";
 import { Parallax } from "react-scroll-parallax";
-import { SiHtml5, SiCss3, SiJavascript, SiPython, SiNodeDotJs, SiReact, SiMongodb, SiAmazonaws, SiFirebase, SiPostgresql, SiGit, SiGithub, SiDjango } from "react-icons/si"
+import { SiHtml5, SiCss3, SiJavascript, SiPython, SiNodeDotJs, SiReact, SiMongodb, SiAmazonaws, SiFirebase, SiPostgresql, SiGit, SiGithub, SiDjango, SiAngularjs } from "react-icons/si"
 function Skills() {
     return (
         <div className="skills">
@@ -40,6 +40,10 @@ function Skills() {
                             <div className="skills__logo__container">
                                 <SiReact className="skills__logo"/>
                                 <p className="skills__name">React JS</p>
+                            </div>
+                            <div className="skills__logo__container">
+                                <SiAngularjs className="skills__logo"/>
+                                <p className="skills__name">Angular JS</p>
                             </div>
                             <div className="skills__logo__container">
                                 <SiMongodb className="skills__logo"/>
