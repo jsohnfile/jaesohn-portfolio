@@ -29,6 +29,7 @@
 
 .photo__about{
     width: 35%;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
