@@ -1,9 +1,10 @@
 .skills {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-shadow: 0 3px 3px black;
-    background-image: linear-gradient(white, gray);
+    background-image: linear-gradient(white, lightgray);
 }
 .skills__subContainer {
     display: flex;
