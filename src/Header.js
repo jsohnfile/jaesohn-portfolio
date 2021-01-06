@@ -33,25 +33,33 @@ function Header() {
                 <Fade right>
                 <div className="header__title__container__on">
                     <div className="header__title"><span className="header__letter">F</span>r<span className="header__letter">o</span>ntend Dev</div>
-                    <div className="dot"></div>
+                    <div className="dot__container">
+                        <div className="dot"></div>
+                    </div>
                 </div>
                 </Fade>
                 <Fade right>
                 <div className={displayTwo}>
                     <div className="header__title">Fu<span className="header__letter">ll</span>stack Dev</div>
-                    <div className="dot"></div>
+                    <div className="dot__container">
+                        <div className="dot"></div>
+                    </div>
                 </div>
                 </Fade>
                 <Fade right>
                 <div className={displayThree}>
                     <div className="header__title">S<span className="header__letter">o</span>ftware Engineer</div>
-                    <div className="dot"></div>
+                    <div className="dot__container">
+                        <div className="dot"></div>
+                    </div>
                 </div>
                 </Fade>
                 <Fade right>
                 <div className={displayFour}>
                     <div className="header__title"><span className="header__letter">W</span>eb Dev</div>
-                    <div className="dot"></div>
+                    <div className="dot__container">
+                        <div className="dot"></div>
+                    </div>
                 </div>
                 </Fade>
                 <Fade right>

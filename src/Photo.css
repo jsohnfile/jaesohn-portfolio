@@ -13,14 +13,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;
+
 }
 .photo__image{
     border-radius: 50%;
     border: 3px solid var(--colorThree);
     box-shadow: 0 3px 3px black;
-    width: 300px;
+    width: 100px;
 }
 
 .photo__name{
@@ -37,11 +36,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
 }
 
 .about__title{
-    font-size: 60px;
-    padding: 30px;
+    font-size: 40px;
+    padding: 20px;
     color: white;
     text-shadow: 0 3px 3px black;
     text-align: center;
@@ -53,9 +54,30 @@
 }
 
 .about__text{
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     padding: 30px;
     font-weight: bold;
     text-shadow: 0 3px 3px black;
+}
+
+@media only screen and (min-width: 768px){
+    .photo__image {
+        width: 300px;
+    }
+
+    .about__title {
+        font-size: 60px;
+        padding: 30px;
+    }
+
+    .about__text {
+        font-size: 30px;
+    }
+
+    .photo__container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
 }

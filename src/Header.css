@@ -1,6 +1,6 @@
 .header {
     height: 100vh;
-    padding: 10px 50px;
+    padding: 50px 20px;
     background-color: white;
     box-shadow: -1px 5px 5px black;
     border: 2px solid black;
@@ -19,12 +19,13 @@
 .header__title {
     font-family: 'Abril Fatface', cursive;
     color: rgb(31, 30, 30);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content: flex-end;
     text-shadow: 0 3px 3px gray;
+    margin: 20px 0;
 }
 
 .header__letter {
@@ -39,6 +40,11 @@
     box-shadow: 0 3px 3px black;
     margin-bottom: 20px;
     margin-left: 5px;
+}
+
+.dot__container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header__btn__off {
@@ -77,6 +83,7 @@
 @media only screen and (min-width: 768px){
     .header__title {
         font-size: 50px;
+        margin: 0;
     }
 
     .dot {

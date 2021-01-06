@@ -12,7 +12,7 @@
     color: black;
     padding-bottom: 80px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     text-shadow: 0 3px 3px gray;
     font-family: 'Abril Fatface', cursive;
@@ -35,4 +35,10 @@
 .portfolio__projectWrapper {
     width: 375px;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px){
+    .portfolio__header {
+        font-size: 60px;
+    }
 }
