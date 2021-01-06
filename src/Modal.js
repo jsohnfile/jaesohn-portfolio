@@ -30,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: 'auto',
     marginRight: 'auto',
     borderRadius: '15px',
+    outline: '0',
   },
 }));
 
