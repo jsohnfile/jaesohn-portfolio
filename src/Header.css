@@ -19,7 +19,7 @@
 .header__title {
     font-family: 'Abril Fatface', cursive;
     color: rgb(31, 30, 30);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +33,7 @@
 }
 
 .dot {
+    display: none;
     background-color: var(--headerColor);
     border-radius: 50%;
     width: 5px;
@@ -87,6 +88,7 @@
     }
 
     .dot {
+        display: flex;
         height: 10px;
         width: 10px;
     }
