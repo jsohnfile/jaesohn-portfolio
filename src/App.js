@@ -4,9 +4,8 @@ import Header from "./Header";
 import Photo from "./Photo";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 import Footer from "./Footer";
-import CarouselContainer from "./CarouselContainer";
-import { Parallax } from 'react-scroll-parallax';
 
 
 function App() {
@@ -25,6 +24,7 @@ function App() {
       <Photo />
       <Portfolio />
       <Skills />
+      <Contact />
       <Footer />
     </div>
   );
