@@ -7,7 +7,7 @@ import "./Contact.css";
 
 function Contact(){
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <h3>Co<span className="contact__span">n</span>tact Me</h3>
                 <div className="contact__container">
                     <a href="mailto:jsohnfile@gmail.com" target="_blank" title="Email Me"><EmailOutlined style={{fontSize:'40px'}} className="contact__icon"/></a>

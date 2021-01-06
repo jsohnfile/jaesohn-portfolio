@@ -5,10 +5,10 @@ import Flip from "react-reveal/Flip";
 
 function Portfolio() {
     return (
-        <div className="portfolio">
+        <div className="portfolio" id="projects">
                 <div className="portfolio__projectContainer">
                 
-                    <div className="portfolio__project">
+                    <div className="portfolio__project" >
                         <p className="portfolio__header">My Proj<span className="portfolio__header__span">e</span>cts</p>
                         <Flip left cascade>
                         <div className="portfolio__container">

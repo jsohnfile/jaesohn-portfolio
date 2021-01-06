@@ -2,3 +2,67 @@
   margin: 0;
   font-family: 'Abel', sans-serif;
 }
+
+.menu-item{
+  outline: 0 !important;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: black;
+}
+
+.bm-burger-bars-hover {
+  background: var(--headerColor);
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 1.5em 1em 0;
+  font-size: 2.5em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item:hover {
+  transition: .3s;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 3px 3px black;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

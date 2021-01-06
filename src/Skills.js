@@ -1,11 +1,10 @@
 import React from "react";
 import "./Skills.css";
 import Fade from "react-reveal/Fade";
-import { Parallax } from "react-scroll-parallax";
 import { SiHtml5, SiCss3, SiJavascript, SiPython, SiNodeDotJs, SiReact, SiMongodb, SiAmazonaws, SiFirebase, SiPostgresql, SiGit, SiGithub, SiDjango, SiAngularjs } from "react-icons/si"
 function Skills() {
     return (
-        <div className="skills">
+        <div className="skills" id="technologies">
             <a id="skills"></a>
             <div className="skills__subContainer">
                 <Fade bottom>

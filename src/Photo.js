@@ -5,7 +5,7 @@ import "./Photo.css"
 export class Photo extends PureComponent {
     render() {
         return (
-            <div className="photo" id="photo">
+            <div className="photo" id="about" >
                 <Fade left>
                 <div className="photo__container">
                     <img className="photo__image" src="https://i.imgur.com/EZfpfTB.jpg" alt="Jae Sohn Photo" />
