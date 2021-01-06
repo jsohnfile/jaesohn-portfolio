@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Header from "./Header";
 import Photo from "./Photo";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
@@ -20,24 +21,10 @@ function App() {
   wakeUpHeroku();
   return (
     <div className="app">
-      {/* <Header /> */}
-    <Parallax className="custom-class" y={[-30, -30]} tagOuter="figure">
-      <CarouselContainer />
-      
-    </Parallax>
-    <Parallax className="custom-class" y={[0, -50]} tagOuter="figure">
+      <Header />
       <Photo />
-
-    </Parallax>
-
-    <Parallax className="custom-class" y={[0, -50]} tagOuter="figure">
       <Portfolio />
-
-    </Parallax>
-    <Parallax className="custom-class" y={[0, -50]} tagOuter="figure">
       <Skills />
-
-    </Parallax>
       <Footer />
     </div>
   );

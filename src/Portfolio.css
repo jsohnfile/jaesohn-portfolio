@@ -1,25 +1,35 @@
 .portfolio {
-    padding-top:30px;
-    padding-bottom: 70px;
+    padding-top:100px;
+    background-image: linear-gradient(white, lightgray);
 }
 
-.portfolio_header {
-    color: white;
+.portfolio__project {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__header {
+    color: black;
     padding-bottom: 80px;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
-    text-shadow: 0 3px 3px black;
+    text-shadow: 0 3px 3px gray;
+    font-family: 'Abril Fatface', cursive;
 }
 
-.portfolio__project {
+.portfolio__header__span{
+    color: var(--headerColor);
+}
+
+.portfolio__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    background-color: var(--colorTwo);
     box-shadow: 0 3px 3px black;
+    padding-bottom: 50px;
 }
 
 .portfolio__projectWrapper {

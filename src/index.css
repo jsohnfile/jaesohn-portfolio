@@ -2,14 +2,24 @@
   margin: 0;
 }
 :root {
-  --colorOne: rgb(151, 162, 187);
-  --colorTwo: rgb(233, 235, 240);
-  --colorThree: rgb(197, 203, 217);
+  --colorOne: lightgray;
+  /* --colorTwo: rgb(233, 235, 240); */
+  --colorTwo: white;
+  --colorThree: grey;
+  --headerColor: rgb(211, 4, 4);
+}
+
+.night-mode { 
+  --colorOne: black;
+  /* --colorTwo: rgb(233, 235, 240); */
+  --colorTwo: darkgray;
+  --colorThree: black;
 }
 
 html {
   width: 100vw;
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 body {
