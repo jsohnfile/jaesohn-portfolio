@@ -15,7 +15,7 @@ export class Photo extends PureComponent {
                 
                 <Fade right>
                     <div className="photo__about">
-                        <p className="about__title">About <span className="about__title__span">M</span>e</p>
+                        <p className="about__title">About M<span className="about__title__span">e</span></p>
                         <p className="about__text">Thank you for dropping by. I am a Full-Stack developer, seeking an opportunity where I can utilize my skill sets 
                         gained throughout my past experiences. I have a passion for building, and utilizing my creative skills in order to produce beautiful and efficient web apps.
                         </p>

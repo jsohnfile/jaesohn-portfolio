@@ -9,7 +9,7 @@ function Portfolio() {
                 <div className="portfolio__projectContainer">
                 
                     <div className="portfolio__project" >
-                        <p className="portfolio__header">My Proj<span className="portfolio__header__span">e</span>cts</p>
+                        <p className="portfolio__header"><span className="portfolio__header__span">M</span>y Projects</p>
                         <Flip left cascade>
                         <div className="portfolio__container">
                             <div className="portfolio__projectWrapper">

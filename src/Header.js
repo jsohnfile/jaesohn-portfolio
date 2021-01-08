@@ -65,7 +65,7 @@ function Header() {
                 <Fade right>
                     <div className={displayBtn}>
                         <div className="learn">Learn More</div>
-                        <a href="#about"><AiFillDownCircle className="header__btn"/></a>
+                        <a href="#projects"><AiFillDownCircle className="header__btn"/></a>
                     </div>
                 </Fade>
             </div>

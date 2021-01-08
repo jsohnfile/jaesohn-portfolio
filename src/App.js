@@ -32,8 +32,8 @@ function App() {
         </Menu>
         <main id="page-wrap">
             <Header />
-            <Photo />
             <Portfolio />
+            <Photo />
             <Skills />
             <Contact />
             <Footer />
