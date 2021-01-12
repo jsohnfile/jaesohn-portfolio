@@ -41,9 +41,16 @@
 }
 
 .modal__linkIconContainer > a {
-    color: inherit;
+    color: gray;
 }
 
 .modal__linkIcon:hover {
-    color: var(--colorThree);
+    color: white;
+}
+
+.modal__icon__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

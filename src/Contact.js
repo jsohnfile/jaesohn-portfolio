@@ -15,7 +15,7 @@ function Contact(){
                         <a href="mailto:jsohnfile@gmail.com" target="_blank" title="Email Me"><EmailOutlined style={{fontSize:'40px'}} className="contact__icon"/></a>
                         <a href="https://www.github.com/jsohnfile" target="_blank" title="GitHub"><GitHubIcon style={{fontSize:'40px'}}  className="contact__icon"/></a>
                         <a href="https://www.linkedin.com/in/jaesohn" target="_blank" title="LinkedIn"><LinkedInIcon style={{fontSize:'40px'}}  className="contact__icon"/></a>
-                        <a href="https://docs.google.com/document/d/1Ct0s_fd66HzVxcWiXmQAB6RqflwLMhkcQPHduVbhqTI/edit?usp=sharing" target="_blank" title="Resume"><InsertDriveFileIcon style={{fontSize: '40px'}} className="contact__icon"/></a>
+                        <a href="https://drive.google.com/file/d/13Ge-7rCX1YooC92-zp8RYf-crud63Pa1/view?usp=sharing" target="_blank" title="Resume"><InsertDriveFileIcon style={{fontSize: '40px'}} className="contact__icon"/></a>
                     </div>
             </div>
         </Fade>

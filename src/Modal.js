@@ -21,16 +21,17 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
     width: 400,
-    backgroundColor: 'var(--colorOne)',
+    backgroundImage: 'linear-gradient(white, lightgray)' ,
     border: '2px solid var(--colorThree) !important',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
-    color: 'white',
-    textShadow:'0 2px 2px black',
+    color: 'black',
+    textShadow:'0 2px 2px gray',
     marginLeft: 'auto',
     marginRight: 'auto',
     borderRadius: '15px',
     outline: '0',
+    fontWeight: 'bold'
   },
 }));
 
@@ -57,8 +58,14 @@ export default function SimpleModal({ image, title, textOne, textTwo, glink, pli
         {textTwo}
       </p>
         <div className="modal__linkIconContainer">
-            <a href={glink} target="_blank" title="GitHub"><GitHubIcon className="modal__linkIcon" style={{ fontSize: 40 }}/></a>
-            <a href={plink} target="_blank" title="View Project"><PageviewIcon className="modal__linkIcon" style={{ fontSize: 50 }}/></a>
+            <div className="modal__icon__container">
+              <a href={glink} target="_blank" title="GitHub"><GitHubIcon className="modal__linkIcon" style={{ fontSize: 50 }}/></a>
+              <h4>GitHub</h4>
+            </div>
+            <div className="modal__icon__container">
+              <a href={plink} target="_blank" title="View Project"><PageviewIcon className="modal__linkIcon" style={{ fontSize: 50 }}/></a>
+              <h4>Website</h4>
+            </div>
         </div>
     </div>
   );

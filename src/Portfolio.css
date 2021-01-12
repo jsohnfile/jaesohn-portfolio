@@ -25,7 +25,7 @@
 .portfolio__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
     box-shadow: 0 3px 3px black;
@@ -34,7 +34,7 @@
 
 .portfolio__projectWrapper {
     width: 375px;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 @media only screen and (min-width: 768px){
