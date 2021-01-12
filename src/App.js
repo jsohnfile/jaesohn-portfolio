@@ -25,8 +25,8 @@ function App() {
     <div className="app">
       <div id="outer-container">
         <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } >
-        <a className="menu-item" href="#about">About</a>
         <a className="menu-item" href="#projects">Projects</a>
+        <a className="menu-item" href="#about">About</a>
         <a className="menu-item" href="#technologies">Technologies</a>
         <a className="menu-item" href="#contact">Contact</a>
         </Menu>
