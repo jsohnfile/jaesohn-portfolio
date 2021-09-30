@@ -13,7 +13,7 @@ import { push as Menu } from 'react-burger-menu';
 datadogRum.init({
   applicationId: '91d1a4f2-6096-44c6-8c85-1e19c50ca728',
   clientToken: 'pubd715abf4a94d9f6e586f79ef5f93eb53',
-  site: '<DATADOG_SITE>',
+  site: 'datadoghq.com',
    service: 'jae-sohn-portfolio',
    env: 'production',
   sampleRate: 100,
