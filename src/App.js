@@ -28,6 +28,8 @@ datadogRum.init({
 
 datadogRum.startSessionReplayRecording();
 
+datadogRum.addRumGlobalContext('test', 'who is this')
+
 function App() {
   function wakeUpHeroku() {
     fetch('https://sharecipe-recipeshare.herokuapp.com', {mode: 'no-cors'});
