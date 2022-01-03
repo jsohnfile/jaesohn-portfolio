@@ -28,7 +28,7 @@ datadogRum.init({
 
 datadogRum.startSessionReplayRecording();
 
-datadogRum.addRumGlobalContext('test', 'who is this')
+datadogRum.addRumGlobalContext('test', 'who are you')
 
 function App() {
   function wakeUpHeroku() {
