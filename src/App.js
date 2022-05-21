@@ -18,6 +18,7 @@ datadogRum.init({
    env: 'production',
   sampleRate: 100,
   trackInteractions: true,
+  useCrossSiteSessionCookie: true,
   beforeSend: (event, context) => {
     // collect a RUM resource's response headers
     if (event.type === 'resource' && event.resource.type === 'fetch') {
@@ -28,7 +29,10 @@ datadogRum.init({
 
 datadogRum.startSessionReplayRecording();
 
-datadogRum.addRumGlobalContext('test', 'who are you')
+function addRUMtext() {
+  datadogRum.addRumGlobalContext('test', 'who are you')
+}
+
 
 function App() {
   function wakeUpHeroku() {
